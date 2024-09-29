@@ -19,7 +19,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   _getRandomQuote() {
-
     context.read<RandomQuoteCubit>().getRandomQuoteFunction();
   }
 
