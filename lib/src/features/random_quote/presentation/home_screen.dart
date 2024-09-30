@@ -31,7 +31,6 @@ class _HomeScreenState extends State<HomeScreen> {
             BlocConsumer<RandomQuoteCubit, RandomQuoteState>(
                 listener: (context, state) {},
                 builder: (context, state) {
-                  print("state:$state ");
                   if (state is RandomQuoteError) {
                     return Text(state.msg);
                   } else if (state is RandomQuoteLoaded) {
