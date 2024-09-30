@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   } else if (state is RandomQuoteLoaded) {
                     return Text(state.quote.content);
                   }
-                  return const Text('No Content');
+                  return const Text('No Content ');
                 }),
           ],
         ),
